@@ -9,7 +9,7 @@
   :maintainer "Vsevolod Dyomkin <vseloved@gmail.com>"
   :licence "MIT"
   :description "A minimal portable Lisp client for AllegroGraph"
-  :depends-on (#:rutils #:cl-ppcre #:drakma #:cl-ntriples
+  :depends-on (#:rutils #:cl-ppcre #:drakma #:cl-ntriples #:yason
                         #+dev #:should-test)
   :serial t
   :components ((:module "src"
